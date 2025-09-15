@@ -1,12 +1,12 @@
 [project]
-name = 'new_project'
+name = 'starnote'
 description = ''
 authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
-[contracts.micro-lending]
-path = 'contracts/micro-lending.clar'
+[contracts.starnote]
+path = 'contracts/starnote.clar'
 clarity_version = 3
 epoch = 3.1
 [repl.analysis]
