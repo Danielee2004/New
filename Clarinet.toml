@@ -5,8 +5,12 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
-[contracts.starnote]
-path = 'contracts/starnote.clar'
+[contracts.sip010-ft-trait]
+path = 'contracts/sip010-ft-trait.clar'
+clarity_version = 3
+epoch = 3.1
+[contracts.chinese-coin]
+path = 'contracts/chinese-coin.clar'
 clarity_version = 3
 epoch = 3.1
 [repl.analysis]
